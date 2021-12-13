@@ -1,4 +1,4 @@
-# SFBB Eligibility Check
+# SFBB Eligibility Checker
 ## About
 SFBB Eligibility Checker is a bash shell script that makes an HTTP request to [SFBB](https://submit.sfbb.gr/EligibilityCheck.aspx) and notifies you if your address is eligible to get a voucher for a SuperFast BroadBand connection.
 
