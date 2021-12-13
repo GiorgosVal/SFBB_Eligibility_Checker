@@ -9,7 +9,7 @@ SFBB Eligibility Checker is a bash shell script that makes an HTTP request to [S
 ## How to use
 1. Download the project
 2. Make the script executable with `chmod +x /your-path/SFBB_Eligibility_Checker.sh`
-3. Do a trial run to check that the script works. For example `./FiberToHomeEligibility.sh 12344 'ΛΑΥΡΙΟΥ' 50 Monday` - If everything works you should see a notification on your Mac
+3. Do a trial run to check that the script works. For example `./SFBB_Eligibility_Checker.sh 12344 'ΛΑΥΡΙΟΥ' 50 Monday` - If everything works you should see a notification on your Mac
 4. Pick the script arguments that work for you:
     * 1st arg: The zip code of the address you are interested to
     * 2nd arg: The street
@@ -17,7 +17,7 @@ SFBB Eligibility Checker is a bash shell script that makes an HTTP request to [S
     * 4th arg: The day when you want the script to notify you for "liveliness" (read more below)
 5. Add a crontab so as to make the script run whenever you want.
     * `crontab -e` to edit your crontab
-    * Add something like: `0 12 * * * bash -l /use/absolute/path/FiberToHomeEligibility.sh 12344 'ΛΑΥΡΙΟΥ' 50 Monday`
+    * Add something like: `0 12 * * * bash -l /use/absolute/path/SFBB_Eligibility_Checker.sh 12344 'ΛΑΥΡΙΟΥ' 50 Monday`
     * save and close
     * `crontab -l` to list your crontab
 6. Repeat the previous step for as many addresses as you wish to check
