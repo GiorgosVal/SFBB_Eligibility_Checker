@@ -35,7 +35,7 @@ check_string_in_response(){
     echo "Response contains ${1}"
   else
     echo "Response does not contain ${1}"
-    exit 1
+    return 1
   fi
 }
 
